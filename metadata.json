@@ -1,0 +1,5 @@
+{
+  "name": "Hungry Jelly",
+  "description": "A vibrant, physics-based arcade game where you control a wobbly jelly. Eat food to grow, avoid spiky enemies, and maintain your fatness!",
+  "requestFramePermissions": []
+}

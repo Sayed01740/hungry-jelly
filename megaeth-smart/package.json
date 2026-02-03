@@ -1,0 +1,26 @@
+{
+  "name": "megaeth-smart-contract-deployment",
+  "version": "1.0.0",
+  "description": "Hardhat project for deploying and verifying smart contracts on MegaETH",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network megaeth",
+    "verify": "hardhat verify"
+  },
+  "keywords": [
+    "hardhat",
+    "megaeth",
+    "smart-contracts",
+    "solidity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
